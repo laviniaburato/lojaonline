@@ -1,0 +1,96 @@
+body{
+    background-color: #a1c3a1;
+  }
+  
+  table {
+      width: 80%;
+      margin: 0 AUTO;
+      width: 80%; /* Define a largura da tabela */
+      table-layout:fixed; /* Faz com que todas as colunas tenham o mesmo tamanho */
+    }
+    
+    th {
+      border: 1px solid #000000;  /* Borda leve */
+      padding: 8px;  /* Espaçamento interno */
+      text-align:center; 
+      font-size: 26px; /* Altere esse valor para o tamanho desejado */
+      font-family: Cambria;
+      padding: 10px;
+      background-color: #000000; /* Cor de fundo para os cabeçalhos */
+      border-radius: 8px;          /* Bordas arredondadas */
+      }
+      td {
+        padding: 8px;
+        border: 1px solid #000000;
+        text-align:center;
+        font-family: Cambria;
+        font-size: 20px; 
+        border-radius: 8px;          /* Bordas arredondadas */
+        color:#000000
+      }
+  
+    th {
+      background-color: #6aa887;  /* Cor de fundo suave */
+      font-weight: bold;  /* Deixa o texto em negrito */
+    }
+    
+    tr:nth-child(even) {
+      background-color: #c686ae;   /* Cor de fundo para as linhas pares */
+    }
+    
+    tr:hover {
+      background-color:#6aa887;  /* Cor de fundo ao passar o mouse */
+    }
+  
+    h2{
+      font-size: medium;
+      font-family: Cambria;
+      font-size: xx-large;
+      font-style: inherit;
+      text-align: center;
+      color:rgb(255, 255, 255);
+      background: 125, 158, 156;
+      padding: 10px 0;
+      position:relative;
+      bottom:0;
+      width: 100%;
+        font-size: 80px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
+    .obs{
+       color: rgb(0, 0, 0);
+       text-align: center;
+       background-color:rgb(255, 255, 255);
+       background: 125, 158, 156;
+       padding: 10px 0;
+       position:relative;
+       bottom:0;
+       width: 100%;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    }
+  
+    button {
+      color: rgb(0, 0, 0);                    /* Cor do texto */
+      background-color: #61a97e; /* Cor de fundo */
+      padding: 15px 30px;                       /* Aumenta o espaçamento interno (vertical e horizontal) */
+      font-size: 18px;                          /* Aumenta o tamanho da fonte */
+      border: 2px solid rgb(255, 255, 255);     /* Adiciona uma borda fina de cor similar à do texto */
+      border-radius: 8px;                       /* Bordas arredondadas */
+      cursor: pointer;                          /* Mostra o cursor de "mãozinha" ao passar o mouse */
+      transition: background-color 0.3s, transform 0.2s;    /* Efeito suave para mudanças de cor e transformação */
+    }
+    
+    button:hover {
+      background-color: rgb(255, 167, 252);     /* Muda a cor de fundo quando o mouse passa por cima */
+      transform: scale(1.1);                      /* Aumenta ligeiramente o botão quando o mouse passa sobre ele */
+    }
+
+    .gallery-image {
+        width: 200px;
+        transition: transform 0.3s;
+      }
+      .gallery-image:hover {
+        transform: scale(1.1);
+      }
